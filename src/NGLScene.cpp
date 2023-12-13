@@ -84,7 +84,7 @@ void NGLScene::createBlades()
     }
 }
 
-std::vector<ngl::Vec3> NGLScene::createLines(ngl::Vec3 &_pos)
+std::vector<ngl::Vec3> NGLScene::createLines(const ngl::Vec3 &_pos)
 {
     std::vector<ngl::Vec3> points;
     // store first point

@@ -94,7 +94,7 @@ private:
     bool m_animate=false;
 
     void createBlades();
-    std::vector<ngl::Vec3> createLines(ngl::Vec3 &_pos);
+    std::vector<ngl::Vec3> createLines(const ngl::Vec3 &_pos);
     void renderVAO();
     std::vector<std::vector<ngl::Vec3>> m_blades;
 
